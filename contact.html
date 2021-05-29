@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------contact css for forms------------------->
+    <link rel="stylesheet" href="css/contactStyle.css">
+    <!-------------------CSS------------------->
+    <link rel="stylesheet" href="css/style.css">
+    <!-------------------icon------------------->
+    <link rel="icon" href="images/favicon.ico">
+    <!-------------------js------------------->
+    <script src="js/script.js"></script>
+    <!-------------------font awesome ------------------->
+    <script src="https://kit.fontawesome.com/bc715aa43c.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <!---------Navbar-->
+    <nav>
+        <!--logo--------------->
+        <a href="index.html" class="logo" style="font-family: montserrat">
+            <img src="images/logo_size.jpg" alt="">		
+        </a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>	
+            <li><a href="CV.html">CV</a></li>	
+            <li><a href="blog.html">Blog</a></li>	
+            <li><a href="research.html">Research</a></li>	
+            <li><a href="contact.html">Contact</a></li>	
+        </ul>
+    </nav>
+   
+    <!----------Contact-form----------------->
+    <div class="container">
+		<div class="contact-box">
+<!----------Left-side-of-contact---------------->
+            <div class="left">
+			<div class="left-data">
+                <h2> DON'T BE SHY !</h2>
+                <p class="contactP">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                  <img src="images/hoodie.jpg" alt="" width="300px">
+
+            </div>
+           
+            </div>
+			<div class="right"><!-----------------right side of contact------------->
+				<h2 class="h2-right">Contact Me</h2>
+                <!---------------------Contact form---------------------------------------->
+                <form id="contactForm" onsubmit="return formValidation()">
+                    <div id="error_message">
+     
+                    </div>
+                     <input class="field" type="text" placeholder="Name" id="name">
+
+                     <input class="field" type="email"placeholder="Email" id="email">
+
+                     <input class="field" type="text" placeholder="Phone" id="phone">
+				<textarea placeholder="Message" class="field" id="message"></textarea>
+				<input class="btn" type="submit">
+                </form>
+
+			</div>
+		</div>
+	</div>
+<!-------------------Footer------------------------------>
+    <footer id="footer">
+    <div class="footer">
+    <h1>Socials</h1>
+    <!-------This icons will not run without internet------->
+    <a href="https://twitter.com/SuzanStha13?s=07&fbclid=IwAR0dQl-xcmlyeVtSOPCy3jb3z6eG0zfYAS-6PMfyyu2twMY6KEKwdyIOriI"><i class="footer-icon fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/suzan.stha.9461"><i class="footer-icon fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/suzan_stha69/"><i class="footer-icon fab fa-instagram"></i></a>
+    <a href="mailto:sujan.stha223@gmail.com">  <i class="footer-icon far fa-envelope"></i></a>
+    <p class="Copyright">© Copyright 2021 Shekhar Shrestha</p>
+   </div>
+</footer>
+
+</body>
+</html>
